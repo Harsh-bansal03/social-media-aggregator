@@ -1,0 +1,10 @@
+parameters:
+    level: 5
+    tmpDir: %currentWorkingDirectory%/var/phpstan
+    paths:
+        - Aggregator
+        - Controller
+        - DependencyInjection
+    excludes_analyse:
+        - var/
+        - vendor/
